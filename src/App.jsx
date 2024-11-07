@@ -110,7 +110,7 @@ function App() {
   return (
     <div className="App">
       <div className="centered-container">
-        <div className='bg-slate-900 text-white p-6 text-lg rounded-lg bg-opacity-50'>
+        <div className=' text-white p-6 text-lg rounded-lg bg-opacity-50'>
           <h1 className='text-center'>YouTube Media Downloader</h1><br />
           <p>YouTube Media Downloader is a web-based platform that allows users to download videos 
             and audio directly from YouTube with ease. 

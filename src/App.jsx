@@ -110,6 +110,14 @@ function App() {
   return (
     <div className="App">
       <div className="centered-container">
+        <div className='bg-slate-900 text-white p-6 text-lg rounded-lg bg-opacity-50'>
+          <h1 className='text-center'>YouTube Media Downloader</h1><br />
+          <p>YouTube Media Downloader is a web-based platform that allows users to download videos 
+            and audio directly from YouTube with ease. 
+            This online tool enables you to quickly save high-quality
+           media files for offline viewing and listening without needing any software installation.</p>
+        </div>
+        <br/>
         <div className="flex flex-col gap-4 justify-center align-center bg-slate-900 rounded-lg bg-opacity-50 p-6 text-center">
           <div>
             <div>Enter the YouTube link:</div>
@@ -167,13 +175,13 @@ function App() {
       </tbody>
     </table>
     
-    <p>want to get your custom timeframe video ? select the time frame</p>
+    <p>want to get your custom timeframe video ? select the time frame</p><br />
     <VideoProgress videoLengthSeconds={getDetails.data.videoLengthFormatted} downloadVideo={downloadVideo}/>
    </>
   ) : (
     <>
       <div>No Default timestamps found </div>
-      <p>want to get your custom timeframe video ? select the time frame</p>
+      <p>want to get your custom timeframe video ? select the time frame</p><br/>
       <VideoProgress videoLengthSeconds={getDetails.data.videoLengthFormatted} downloadVideo={downloadVideo}/>
     </>
   )}
